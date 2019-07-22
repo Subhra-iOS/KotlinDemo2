@@ -6,5 +6,4 @@
 class Car {
 
     var name : String = "Audi"
-
 }
