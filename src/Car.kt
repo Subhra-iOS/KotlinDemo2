@@ -7,7 +7,7 @@ class Car {
 
     var name : String = "Audi"
 
-    fun findGreatestNumber(firstNum : Int, secondNum : Int) : Int{
+    fun findGreatestNumber(firstNum:Int, secondNum:Int) : Int{
 
         val num = when {
 
@@ -30,5 +30,14 @@ class Car {
     val stringLength:(String) -> Int = { input ->
 
         input.length
+    }
+
+    /*
+    * High order function
+    * */
+
+    fun mapStringLenthWith(str : String, map : (String) -> Int) : Int{
+
+        return  map(str)
     }
 }

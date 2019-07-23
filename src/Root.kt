@@ -12,12 +12,18 @@ fun main(args : Array<String>){
 
     val num1 = 5
     val num2 = 8
-    val greatestNum = car.findGreatestNumber(num1, num2)
+    val greatestNum = car.findGreatestNumber(num1,num2)
 
     print("Gretaest Number between $num1 and $num2 is $greatestNum \n")
 
     val newModelName = car.appendCarModelWith("BMW", "Lux1")
 
     print("New car model name : $newModelName\n")
-    print("Car name length is ${car.stringLength(newModelName)}")
+    print("Car name length is ${car.stringLength(newModelName)}\n")
+
+    val higherOrderCarLength = car.mapStringLenthWith("Android", ({
+        it.length
+    }))
+
+    print("car length using higher order function : $higherOrderCarLength")
 }
