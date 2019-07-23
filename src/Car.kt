@@ -24,4 +24,11 @@ class Car {
         return  carName + "_" + modelNo
     }
 
+/*
+* Anonymous Function
+* */
+    val stringLength:(String) -> Int = { input ->
+
+        input.length
+    }
 }

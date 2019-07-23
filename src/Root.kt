@@ -18,5 +18,6 @@ fun main(args : Array<String>){
 
     val newModelName = car.appenCarModelWith("BMW", "Lux1")
 
-    print("New car model name : $newModelName")
+    print("New car model name : $newModelName\n")
+    print("Car name length is ${car.stringLength(newModelName)}")
 }
