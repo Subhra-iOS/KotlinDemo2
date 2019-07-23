@@ -19,7 +19,7 @@ class Car {
         return  num
     }
 
-    fun appenCarModelWith(carName : String, modelNo : String) : String{
+    fun appendCarModelWith(carName : String, modelNo : String) : String{
 
         return  carName + "_" + modelNo
     }

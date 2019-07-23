@@ -16,7 +16,7 @@ fun main(args : Array<String>){
 
     print("Gretaest Number between $num1 and $num2 is $greatestNum \n")
 
-    val newModelName = car.appenCarModelWith("BMW", "Lux1")
+    val newModelName = car.appendCarModelWith("BMW", "Lux1")
 
     print("New car model name : $newModelName\n")
     print("Car name length is ${car.stringLength(newModelName)}")
