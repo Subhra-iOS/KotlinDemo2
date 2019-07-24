@@ -25,5 +25,12 @@ fun main(args : Array<String>){
         it.length
     }))
 
-    print("car length using higher order function : $higherOrderCarLength")
+    print("car length using higher order function : $higherOrderCarLength\n")
+
+    val output = car.checkWithSwitch(8)
+
+    print("When (Switch) output : $output\n")
+
+    car.printLoopWith(Array(5, { i -> i + 1 }))
+
 }

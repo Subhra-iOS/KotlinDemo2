@@ -9,7 +9,7 @@ class Car {
 
     fun findGreatestNumber(firstNum:Int, secondNum:Int) : Int{
 
-        val num = when {
+        val num = when { //use when as an expression
 
             firstNum > secondNum -> { firstNum }
             else -> { secondNum }
@@ -39,5 +39,35 @@ class Car {
     fun mapStringLenthWith(str : String, map : (String) -> Int) : Int{
 
         return  map(str)
+    }
+
+    /**
+     * Switch function
+     */
+
+    fun checkWithSwitch(num : Int) : String{
+
+        when(num){
+
+            1 -> return  "One"
+            2 -> return  "Two"
+            3 -> return  "Three"
+            else -> return  "Please give proper input"
+        }
+    }
+
+    /**
+     *
+     * For loop
+     */
+
+    fun printLoopWith(numbers : Array<Int>){
+
+        print("Array size : ${numbers.size}\n")
+
+        for (a in numbers){
+            print("Loop no : $a \n")
+        }
+
     }
 }
