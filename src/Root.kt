@@ -33,4 +33,12 @@ fun main(args : Array<String>){
 
     car.printLoopWith(Array(5, { i -> i + 1 }))
 
+    var electricCar = ElectricCar(6)
+
+    print("Car Color : ${electricCar.carColor}\n")
+    print("Car Color : ${electricCar.numberOfLights}\n")
+
+    val eleCarModel = electricCar.appendCarModelWith("Kia","10i")
+    print("New Electric car model : $eleCarModel\n")
+
 }

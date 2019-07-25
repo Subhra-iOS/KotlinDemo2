@@ -3,9 +3,9 @@
 * */
 
 
-class Car {
+open class Car {
 
-    var name : String = "Audi"
+    open var name : String = "Audi"
 
     fun findGreatestNumber(firstNum:Int, secondNum:Int) : Int{
 
@@ -19,7 +19,7 @@ class Car {
         return  num
     }
 
-    fun appendCarModelWith(carName : String, modelNo : String) : String{
+   open fun appendCarModelWith(carName : String, modelNo : String) : String{
 
         return  carName + "_" + modelNo
     }
