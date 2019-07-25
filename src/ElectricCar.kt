@@ -1,10 +1,9 @@
-import java.util.*
 
 /**
  *
  * Created by Subhra
  */
-
+import java.util.*
 
 class ElectricCar(val noOfLights : Int) : Car(){
 
