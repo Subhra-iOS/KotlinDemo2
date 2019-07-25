@@ -41,4 +41,16 @@ fun main(args : Array<String>){
     val eleCarModel = electricCar.appendCarModelWith("Kia","10i")
     print("New Electric car model : $eleCarModel\n")
 
+    print("Price Set : ${electricCar.creatMap()}\n")
+
+    val carMap = electricCar.creatMap()
+
+    for ((carName, price) in carMap){
+        print("Name : $carName -> Price : $price \n")
+    }
+
+    val addition = electricCar.addCarPrices(3000,4000)
+
+    print("Total price : $addition\n")
+    print("InLine Total : ${electricCar.addInlineCarPrices(3000, 4000)}\n")
 }

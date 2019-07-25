@@ -6,6 +6,7 @@
 open class Car {
 
     open var name : String = "Audi"
+    public var listArray : List<Int> = listOf(1,3,4,7,5)
 
     fun findGreatestNumber(firstNum:Int, secondNum:Int) : Int{
 
@@ -65,8 +66,8 @@ open class Car {
 
         print("Array size : ${numbers.size}\n")
 
-        for (a in numbers){
-            print("Loop no : $a \n")
+        for ((i, a) in numbers.withIndex()){
+            print("Loop no $i : $a \n")
         }
 
     }

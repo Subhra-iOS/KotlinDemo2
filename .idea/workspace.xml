@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2c30b110-fffb-4580-bb09-c82231fe63d3" name="Default Changelist" comment="" />
+    <list default="true" id="2c30b110-fffb-4580-bb09-c82231fe63d3" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinDemo2/Car$stringLength$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinDemo2/Car$stringLength$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinDemo2/Car.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinDemo2/Car.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinDemo2/ElectricCar.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinDemo2/ElectricCar.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinDemo2/RootKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinDemo2/RootKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Car.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Car.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ElectricCar.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/ElectricCar.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Root.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Root.kt" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,5 +108,8 @@
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/KotlinDemo2$RootKt.ic" NAME="RootKt Coverage Results" MODIFIED="1564080051420" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
