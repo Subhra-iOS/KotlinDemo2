@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2c30b110-fffb-4580-bb09-c82231fe63d3" name="Default Changelist" comment="" />
+    <list default="true" id="2c30b110-fffb-4580-bb09-c82231fe63d3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Runner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinDemo2/ElectricCar.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinDemo2/ElectricCar.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinDemo2/META-INF/KotlinDemo2.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinDemo2/META-INF/KotlinDemo2.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinDemo2/RootKt$main$higherOrderCarLength$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinDemo2/RootKt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ElectricCar.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/ElectricCar.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Root.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Root.kt" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +28,7 @@
       <list>
         <option value="Kotlin File" />
         <option value="Kotlin Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -47,7 +57,27 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Runner">
+    <configuration name="Runner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Runner" />
+      <module name="KotlinDemo2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Root" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="KotlinDemo2" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="Root" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="RootKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="KotlinDemo2" />
       <option name="VM_PARAMETERS" />
@@ -63,6 +93,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Runner" />
+        <item itemvalue="Kotlin.Root" />
         <item itemvalue="Kotlin.RootKt" />
       </list>
     </recent_temporary>

@@ -2,6 +2,7 @@
 * Main class created By Subhra
 * */
 
+@file:JvmName("Root") //Name Annotation
 
 fun main(args : Array<String>){
 
@@ -52,5 +53,17 @@ fun main(args : Array<String>){
     val addition = electricCar.addCarPrices(3000,4000)
 
     print("Total price : $addition\n")
-    print("InLine Total : ${electricCar.addInlineCarPrices(3000, 4000)}\n")
+    print("InLine Total : ${electricCar.addInlineCarPrices(3000,8000)}\n")
+    print("In Line Max : ${electricCar.max(5,8)} \n")
+
+    val amount = calcAmount(amt = 50, interest = 0.03)
+    print("Total amount after tax : $amount")
+
+}
+
+fun maxOut(a : Int, b : Int) : Int = if(a > b) a else b
+
+@JvmOverloads //JVM overload the function i.e creats two functions to encounter JAVA's optional parameter.
+fun calcAmount(amt : Int, interest : Double = 0.04) : Int{ //Method over loading in Kotlin by assigning default parameter.
+    return  (amt + amt*interest).toInt()
 }

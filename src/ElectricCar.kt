@@ -35,5 +35,6 @@ class ElectricCar(val noOfLights : Int) : Car(){
     /**
      * In Line function
      */
-    fun addInlineCarPrices(firstPrice : Int, secondPrice : Int) = firstPrice + secondPrice
+    fun addInlineCarPrices(firstPrice:Int, secondPrice:Int) : Int = firstPrice + secondPrice
+    fun max(a : Int, b : Int) : Int = if(a > b) a else b
 }
