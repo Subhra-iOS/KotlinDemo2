@@ -108,6 +108,19 @@ fun main(args : Array<String>){
     val devHuman = DevHuman(age = 2920,_name = "Subhra")
     print("Human name is ${devHuman.show()} \n")
 
+    val inheriteDev = ARCDev(name = "Subhra")
+    print("Now dev becomes : ${inheriteDev.show()}\n")
+    inheriteDev.thik()
+
+    val surgeon = Surgeon()
+    surgeon.think()
+    surgeon.talk()
+
+    val cObj = C()
+    cObj.show()
+    cObj.pause()
+    cObj.display()
+
 }
 
 fun maxOut(a : Int, b : Int) : Int = if(a > b) a else b
