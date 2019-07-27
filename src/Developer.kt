@@ -144,3 +144,30 @@ class C : A, B{
  * Data Class
  * */
 
+// 1. Every Class needs toString() function
+// 2. Need to override equals and hashCode function
+// 3. copy function
+
+data class Laptop(val machineName : String,val price : Int){
+
+    fun show(){
+        print("Awesome machine.....")
+    }
+
+}
+
+/**
+ * Object Class : Singleton class
+ * */
+
+data class Book(var bookName : String, var price : Int)
+
+object BookShelf{
+    var books = arrayListOf<Book>()
+
+    fun showBooks(){
+        for (book in books){
+            print("$book\n")
+        }
+    }
+}

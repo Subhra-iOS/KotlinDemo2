@@ -3,9 +3,15 @@
   <component name="ChangeListManager">
     <list default="true" id="2c30b110-fffb-4580-bb09-c82231fe63d3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinDemo2/A$DefaultImpls.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinDemo2/A$DefaultImpls.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinDemo2/ARCDev.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinDemo2/ARCDev.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinDemo2/B$DefaultImpls.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinDemo2/B$DefaultImpls.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinDemo2/C.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinDemo2/C.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/KotlinDemo2/DevHuman.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinDemo2/DevHuman.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinDemo2/Doctor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinDemo2/Doctor.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/KotlinDemo2/Human.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinDemo2/Human.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/KotlinDemo2/Root.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinDemo2/Root.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinDemo2/Surgeon.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinDemo2/Surgeon.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Developer.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Developer.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Root.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Root.kt" afterDir="false" />
     </list>

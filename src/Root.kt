@@ -121,6 +121,21 @@ fun main(args : Array<String>){
     cObj.pause()
     cObj.display()
 
+    //data class
+    var lap1 = Laptop("HP",900)
+    var lap2 = Laptop("HP",900)
+
+    var lap3 = lap2.copy(price = 1000)
+
+    print("${lap1.equals(lap2)}\n")
+    print("Lap3 : $lap3\n")
+
+    //Object keyword
+    BookShelf.books.add(Book("Swift",100))
+    BookShelf.books.add(Book("Kotlin",150))
+    BookShelf.books.add(Book("Java",40))
+
+    BookShelf.showBooks()
 }
 
 fun maxOut(a : Int, b : Int) : Int = if(a > b) a else b
