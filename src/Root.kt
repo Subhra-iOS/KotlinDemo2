@@ -4,6 +4,10 @@
 
 @file:JvmName("Root") //Name Annotation
 
+import com.sun.jdi.IntegerValue
+import java.lang.NumberFormatException
+import java.util.*
+
 fun main(args : Array<String>){
 
     var car : Car = Car()
@@ -57,7 +61,52 @@ fun main(args : Array<String>){
     print("In Line Max : ${electricCar.max(5,8)} \n")
 
     val amount = calcAmount(amt = 50, interest = 0.03)
-    print("Total amount after tax : $amount")
+    print("Total amount after tax : $amount\n")
+
+    var digit : String = "100abc"
+    var numericDigit : Int = 0
+
+    try {
+        numericDigit = digit.toInt()
+    }catch (exception : NumberFormatException){
+        print("Give a proper input.\n")
+    }
+
+    /**
+     * try @ kotlin : try as an expression
+     */
+
+    var digitUpdate : Int = try {
+        digit.toInt()
+    }catch ( e : NumberFormatException){
+        -1
+    }
+
+    digitUpdate++
+
+    print("Output after exception check : $digitUpdate\n")
+
+    var dev1 = Developer()
+    dev1.skills = "Swift"
+
+    var dev2 = Developer()
+    dev2.skills = "Kotlin"
+
+    //var dev3 = dev1 plus dev2
+
+   // print("New Developer skills are : ${dev3.skills} \n")
+
+    var dev4 = dev1 + dev2
+
+    print("Operator overloading skills are : ${dev4.skills} \n")
+    val factValue = dev4.findFactorialOf(5)
+    print("Factorial of 5 : $factValue \n")
+
+    val human = Human(humanName = "Subhra")
+    print("Human name is ${human.showName()} \n")
+
+    val devHuman = DevHuman(age = 2920,_name = "Subhra")
+    print("Human name is ${devHuman.show()} \n")
 
 }
 
