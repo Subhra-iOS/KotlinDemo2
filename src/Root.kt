@@ -8,6 +8,10 @@ import com.sun.jdi.IntegerValue
 import java.lang.NumberFormatException
 import java.util.*
 
+interface HumanRace{
+    fun think()
+}
+
 fun main(args : Array<String>){
 
     var car : Car = Car()
@@ -136,6 +140,14 @@ fun main(args : Array<String>){
     BookShelf.books.add(Book("Java",40))
 
     BookShelf.showBooks()
+
+    var programmer : HumanRace = object : HumanRace{
+        override fun think() {
+            print("We thik virtually in Kotlin \n")
+        }
+    }
+
+    programmer.think()
 }
 
 fun maxOut(a : Int, b : Int) : Int = if(a > b) a else b
