@@ -1,6 +1,7 @@
-/*
-* Main class created By Subhra
-* */
+/**
+ * Created by Subhra Roy on 2019-07-28.
+ * Copyright © 2019 Subhra Roy. All rights reserved.
+ */
 
 @file:JvmName("Root") //Name Annotation
 

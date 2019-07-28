@@ -3,12 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="2c30b110-fffb-4580-bb09-c82231fe63d3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KotlinDemo2/ClassA$Companion.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinDemo2/ClassA$Companion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KotlinDemo2/ClassA.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinDemo2/ClassA.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KotlinDemo2/FactA$Companion.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinDemo2/FactA$Companion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KotlinDemo2/FactA.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinDemo2/FactA.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KotlinDemo2/KeywordClassKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinDemo2/KeywordClassKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Car.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Car.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Developer.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Developer.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ElectricCar.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/ElectricCar.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/KeywordClass.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/KeywordClass.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Root.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Root.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Runner.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -47,7 +47,7 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="copyright.filetypes.Kotlin" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
