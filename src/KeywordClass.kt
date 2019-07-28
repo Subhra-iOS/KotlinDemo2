@@ -4,6 +4,7 @@
  */
 import java.io.BufferedInputStream
 import java.util.*
+import java.util.function.Consumer
 
 class ClassA{
     companion object{
@@ -35,6 +36,26 @@ fun main(args : Array<String>){
     var dynamicList : MutableList<Int> = mutableListOf(3,5,4,1,6) //Dynamic list
     dynamicList.add(3,10)
 
+    dynamicList.forEach({
+        //print("$it\n")
+        println(it)
+    })
+
+    var consumer : Consumer<Int> = object  : Consumer<Int>{
+        override fun accept(p0: Int) {
+            println(p0)
+        }
+    }
+
+    dynamicList.forEach(consumer)
+
+    val evenList = dynamicList.filter { it%2 == 0 }
+    println(evenList)
+    val doubleEvenList = evenList.map { it*2 }
+    println(doubleEvenList)
+
+    val evenDoubleList = dynamicList.filter { it%2>0 }.map { it*3 }
+    println(evenDoubleList)
 }
 
 /**

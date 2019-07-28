@@ -2,14 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2c30b110-fffb-4580-bb09-c82231fe63d3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/KeywordClass.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KotlinDemo2/META-INF/KotlinDemo2.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinDemo2/META-INF/KotlinDemo2.kotlin_module" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KotlinDemo2/Root$main$higherOrderCarLength$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinDemo2/Root$main$higherOrderCarLength$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KotlinDemo2/Root.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinDemo2/Root.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KotlinDemo2/Runner.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinDemo2/Runner.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Root.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Root.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Runner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinDemo2/ClassA$Companion.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinDemo2/ClassA$Companion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinDemo2/ClassA.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinDemo2/ClassA.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinDemo2/FactA$Companion.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinDemo2/FactA$Companion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinDemo2/FactA.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinDemo2/FactA.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinDemo2/KeywordClassKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinDemo2/KeywordClassKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/KeywordClass.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/KeywordClass.kt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
